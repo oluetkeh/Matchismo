@@ -18,6 +18,8 @@
 		215C1BB017E1E0C6002B5842 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215C1BAF17E1E0C6002B5842 /* Default-568h@2x.png */; };
 		215C1BB317E1E0C6002B5842 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215C1BB117E1E0C6002B5842 /* MainStoryboard.storyboard */; };
 		215C1BB617E1E0C6002B5842 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215C1BB517E1E0C6002B5842 /* CardGameViewController.m */; };
+		215C1BBE17E1E7CB002B5842 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 215C1BBD17E1E7CB002B5842 /* Card.m */; };
+		215C1BC117E1E7EC002B5842 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 215C1BC017E1E7EC002B5842 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		215C1BB217E1E0C6002B5842 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		215C1BB417E1E0C6002B5842 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		215C1BB517E1E0C6002B5842 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		215C1BBC17E1E7CB002B5842 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Matchismo/Model/Card.h; sourceTree = "<group>"; };
+		215C1BBD17E1E7CB002B5842 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Matchismo/Model/Card.m; sourceTree = "<group>"; };
+		215C1BBF17E1E7EC002B5842 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Matchismo/Model/Deck.h; sourceTree = "<group>"; };
+		215C1BC017E1E7EC002B5842 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Matchismo/Model/Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		215C1B8D17E1E0C6002B5842 = {
 			isa = PBXGroup;
 			children = (
+				215C1BC217E1E7F5002B5842 /* Model */,
 				215C1B9F17E1E0C6002B5842 /* Matchismo */,
 				215C1B9817E1E0C6002B5842 /* Frameworks */,
 				215C1B9717E1E0C6002B5842 /* Products */,
@@ -83,8 +90,6 @@
 		215C1B9F17E1E0C6002B5842 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				215C1BA817E1E0C6002B5842 /* CardGameAppDelegate.h */,
-				215C1BA917E1E0C6002B5842 /* CardGameAppDelegate.m */,
 				215C1BB117E1E0C6002B5842 /* MainStoryboard.storyboard */,
 				215C1BB417E1E0C6002B5842 /* CardGameViewController.h */,
 				215C1BB517E1E0C6002B5842 /* CardGameViewController.m */,
@@ -96,6 +101,8 @@
 		215C1BA017E1E0C6002B5842 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				215C1BA817E1E0C6002B5842 /* CardGameAppDelegate.h */,
+				215C1BA917E1E0C6002B5842 /* CardGameAppDelegate.m */,
 				215C1BA117E1E0C6002B5842 /* Matchismo-Info.plist */,
 				215C1BA217E1E0C6002B5842 /* InfoPlist.strings */,
 				215C1BA517E1E0C6002B5842 /* main.m */,
@@ -105,6 +112,17 @@
 				215C1BAF17E1E0C6002B5842 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		215C1BC217E1E7F5002B5842 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				215C1BBC17E1E7CB002B5842 /* Card.h */,
+				215C1BBD17E1E7CB002B5842 /* Card.m */,
+				215C1BBF17E1E7EC002B5842 /* Deck.h */,
+				215C1BC017E1E7EC002B5842 /* Deck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +195,8 @@
 				215C1BA617E1E0C6002B5842 /* main.m in Sources */,
 				215C1BAA17E1E0C6002B5842 /* CardGameAppDelegate.m in Sources */,
 				215C1BB617E1E0C6002B5842 /* CardGameViewController.m in Sources */,
+				215C1BBE17E1E7CB002B5842 /* Card.m in Sources */,
+				215C1BC117E1E7EC002B5842 /* Deck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
