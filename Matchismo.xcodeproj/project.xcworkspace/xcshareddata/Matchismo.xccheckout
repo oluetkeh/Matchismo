@@ -10,29 +10,29 @@
 	<string>Matchismo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F9904334-1122-45AF-9FF8-42BD0AE874E5</key>
+		<key>5998F2249413738990B7AEBDB6DDF59A3B246D4E</key>
 		<string>https://github.com/oluetkeh/Matchismo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Matchismo.xcodeproj/project.xcworkspace</string>
+	<string>Matchismo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F9904334-1122-45AF-9FF8-42BD0AE874E5</key>
+		<key>5998F2249413738990B7AEBDB6DDF59A3B246D4E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/oluetkeh/Matchismo.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F9904334-1122-45AF-9FF8-42BD0AE874E5</string>
+	<string>5998F2249413738990B7AEBDB6DDF59A3B246D4E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F9904334-1122-45AF-9FF8-42BD0AE874E5</string>
+			<string>5998F2249413738990B7AEBDB6DDF59A3B246D4E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Matchismo</string>
 		</dict>
